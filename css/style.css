@@ -1,0 +1,279 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+
+    /* AJOUT DE POLICE VIA MON ORDI */
+
+@font-face{
+    font-family: "policeTitre";
+    src: url("./font/batmfa__.ttf");
+}
+
+@font-face{
+    font-family: "policeTitre2";
+    src: url("./font/BADABB__.TTF");
+}
+
+body{
+    background-color: rgb(85, 85, 245);
+}
+
+/*------- CSS QUI SE RÉPÈTE----- */
+
+    /* Texte centré */
+.text-center{
+    text-align: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+    /* Polices des titres principaux */
+
+.fontTitres{
+    font-family: "policeTitre";
+    
+}
+
+    /* Police des titres secondaires */
+
+.fontTitres2{
+    font-family: "policeTitre2";
+}
+
+    /* couleur jaune des titres */
+
+.jaune{
+    color: yellow;
+    margin-bottom: 3%;
+}
+
+/* Image centrée au milieux dans section 1 */
+
+.image-center{
+    width: 30%;
+    margin-left: 35%;
+    
+}
+
+.text-blanc{
+    color: white;
+}
+
+
+/* -------HEADER------- */
+
+    /* Image de fond */
+header{
+    height: 90vh;
+    background-image: url(img/fond.jpg);
+    background-size: cover;
+    background-position: center top;
+}
+
+img{
+    width: 100%;
+}
+
+/* --------------MAIN------------- */
+
+    /* NAV */
+
+    /* Float de la nav */
+
+.floatNav{
+    float: left;
+}
+
+    /* Marge de "film" dans la nav */
+.margin1{
+    margin-left: 10%;
+}
+
+/* Marge de "image" dans la nav */
+.margin2{
+    margin-left: 15%;   
+    margin-top: 0.5%; 
+}
+
+/* Marge de "series" dans la nav*/
+
+.margin3{
+    margin-left: 10%;
+
+}
+
+/* Float de "autres" à droite dans la nav */
+.floatNav1{
+    float: right;
+}
+
+/* Fond jaune pour la nav et les différents type */
+.fdJaune{
+    height: 10vh;
+    background-color: rgb(250, 250, 86);
+    margin-top: -1%;
+}
+
+/* Enlever points de la liste + donner une taille a chaque li pour ensuite les gerer dans le float */
+li{
+    list-style: none;
+    width: 10%;
+    /* background-color: blue; */
+
+}
+
+/* Padding pour tous les li sauf pour le logo */
+.padding{
+    padding: 2%;
+}
+
+/* Hauteur et largeur du logo */
+.logo{
+    width: 150px;
+    height: 70px;
+}
+
+/* Enlevement de la couleur bleue et du surlignement des liens */
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* --------SECTION 1----------- */
+
+section{
+    clear: both;
+}
+
+/* article{
+    /* background-color: red; */
+/* } */ 
+
+
+
+    /* couleur du premier titre */
+
+.blanc{
+    clear: both;
+    color: white;
+    /* background-color: green; */
+    
+}
+
+
+    /* Largeur de section mis à 80%  */
+
+section{
+    width: 80%;
+    margin: auto;
+}
+
+    /* Images flottantes côte à còte section 1 et 2 */
+
+.floatLeft{
+    float: left;
+    width: 25%;
+    margin-left: 15%;;
+    margin-bottom: 2%;
+}
+
+.floatRight{
+    float: right;
+    width: 25%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+    
+}
+
+
+    /* Clear float des 2 images */
+.clear{
+    clear: both;
+}
+
+/* Titre OLD SCHOOL et NO WAY... */
+
+.titreRight{
+    margin-left: 85%;
+    
+}
+
+.titreLeft{
+    margin-left: 10%;
+}
+
+
+/* -----------SECTION 2 ---------*/
+
+/* Marge pour rapprocher photo et texte */
+
+
+.marginRight{
+    margin-right: 19%;
+}
+
+.marginLeft{
+    margin-left: 19%;
+}
+
+/* Alignement texte et image pour la section 3 */
+
+.alignImageAndText{
+    width: 65%;
+    margin-left: 18%;
+    margin-bottom: 1%;
+}
+
+
+
+
+/* ----------FOOTER----------- */
+
+
+
+
+.footerFloatLeft{
+    float: left;
+    width: 5%;
+   
+    
+}
+
+.footerFloatRight{
+    float: left;
+    width: 5%;
+    margin-left: 90%;
+}
+
+footer{
+    height: 13vh;
+    background-color: black;
+    
+}
+
+.footerLogo{
+    margin-top: 20%;
+    height: 75px;
+    width: 150px;
+}
+
+
+/* Titres "AUTRES" et "SERIES"  */
+
+#autres{
+    background-color: rgb(250, 250, 86);
+    padding: 1.5%;
+    height: 10vh;
+}
+
+#series{
+    background-color: rgb(250, 250, 86);
+    padding: 1.5%;
+    height: 10vh;
+}
+
